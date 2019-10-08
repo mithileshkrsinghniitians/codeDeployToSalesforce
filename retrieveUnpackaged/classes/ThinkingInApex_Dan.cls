@@ -1,5 +1,6 @@
 /* Jenkins Deploy Test  */
-/* Changed made on GitHub Repository to Jenkins pick the job  */
+/* Code Change done on GitHub Repository to pick the jobs by Jenkins & deploy to Salesforce Org*/
+
 public class ThinkingInApex_Dan
 {
  public static List<Contact> associateContacts = null;
@@ -29,6 +30,7 @@ public class ThinkingInApex_Dan
       {
        if(! ocrOpportunities.contains(op.Id))
        op.addError('Opportunity Contact Role is required to create an Opportunity');
-      } 
+      }
+      
   }
 }

@@ -1,4 +1,3 @@
-/* Jenkins Deploy Test  */
 @isTest
 private class ThinkingInApex_DanTest
 {
@@ -26,4 +25,5 @@ private class ThinkingInApex_DanTest
       }
       catch(Exception e){}
     }
+   
 }
