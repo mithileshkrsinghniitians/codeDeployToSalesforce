@@ -1,4 +1,5 @@
 /* Jenkins Deploy Test  */
+/* Code changed on GitHub to pick the job by Jenkins  */
 public class ThinkingInApex_Dan
 {
  public static List<Contact> associateContacts = null;
